@@ -1,0 +1,47 @@
+body {
+  background-image: url("../image/formal background.jpg");
+}
+body header {
+  background: url("../image/starry night.jpg");
+  height: 100%;
+  text-align: center;
+}
+body header .logo {
+  display: inline;
+  height: 200px;
+}
+body nav {
+  font-family: monospace;
+}
+body nav a {
+  text-decoration: none;
+  color: rgb(200, 255, 50);
+  font-weight: 500;
+}
+body nav a:hover {
+  color: rgb(255, 150, 0);
+}
+body nav :focus {
+  color: white;
+}
+body nav .active-page {
+  font-weight: bolder;
+  color: rgb(0, 220, 220);
+}
+body section .menu-photo, body section .comment {
+  text-align: center;
+}
+body section .meat, body section .seafood, body section .beverage {
+  color: rgb(220, 60, 0);
+}
+body section figcaption.figure-caption {
+  color: black;
+}
+body section .store-info {
+  text-align: center;
+}
+body footer {
+  background-color: rgb(220, 160, 0);
+  height: 100%;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

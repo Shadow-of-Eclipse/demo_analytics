@@ -1,0 +1,31 @@
+@mixin body {
+    background-image: url("../image/formal background.jpg")
+}
+
+@mixin header-style {
+    background: url("../image/starry night.jpg");
+    height: 100%;
+    text-align: center;
+}
+
+@mixin logo-layout {
+    display: inline;
+    height: 200px;
+}
+
+@mixin footer {
+    background-color: rgb(220, 160, 0);
+    height: 100%;
+    text-align: center;
+}
+
+@mixin navbar {
+    text-decoration: none;
+    color: $link-font-color;
+    font-weight: 500;
+}
+
+@mixin active-page {
+    font-weight: bolder;
+    color: $button-active;
+}
